@@ -1,3 +1,68 @@
+:root {
+  --accent-color: rgb(179, 3, 91);
+  --secondary-color: rgb(232, 60, 146);
+}
 body {
+  font-family: "Roboto", sans-serif;
   text-align: center;
+  background: url("../images/colorful-notes.jpg") top no-repeat;
+  background-size: 100% 105%;
+}
+div.container {
+  font-family: "Roboto", sans-serif;
+  background-color: #fad1fce2;
+  margin: 5% auto;
+  padding: 2% 4%;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 40%;
+}
+div h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin: 10px 5px 35px 5px;
+}
+form {
+  margin-bottom: 70px;
+}
+input.textInput {
+  width: 60%;
+  padding: 8px 2px;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+}
+input.submitButton {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  width: 20%;
+  padding: 10px 15px;
+  margin: 0 8px;
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+}
+div h3 {
+  font-size: 35px;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+div.response {
+  font-family: "Playwrite DE Grund", cursive;
+  text-align: left;
+  padding: 5px 20px;
+  border-left: 3px solid var(--secondary-color);
+  border-radius: 4px;
+}
+div p {
+  color: black;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  line-height: 2.5;
+}
+footer {
+  text-align: center;
+  margin-bottom: 25px;
 }
