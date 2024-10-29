@@ -18,7 +18,6 @@ function generatePoem(event) {
 }
 
 function displayPoem(response) {
-  console.log(response.data);
   let title = "Generated Poem:";
   let h3 = document.querySelector("#title");
   h3.innerHTML = title;
