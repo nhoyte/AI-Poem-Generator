@@ -25,7 +25,7 @@ div h1 {
   margin: 10px 5px 35px 5px;
 }
 form {
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 input.textInput {
   width: 60%;
@@ -45,11 +45,21 @@ input.submitButton {
   border: 2px solid var(--accent-color);
   border-radius: 8px;
 }
+p.suggestedText {
+  text-align: left;
+  color: rgb(84, 84, 84);
+  font-size: 16px;
+  padding: 0 10%;
+}
 div h3 {
   font-size: 35px;
   font-weight: 500;
   color: var(--accent-color);
-  margin-bottom: 25px;
+  margin: 25px 5px;
+}
+span.topic {
+  font-weight: 600;
+  color: var(--accent-color);
 }
 div.response {
   font-family: "Playwrite DE Grund", cursive;
@@ -64,6 +74,25 @@ div p {
   padding: 0;
   margin: 0;
   line-height: 2.5;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.loading {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  text-shadow: 2px 4px white;
+  color: var(--accent-color);
+  animation: blink 1s infinite;
 }
 footer {
   font-size: 20px;
