@@ -88,7 +88,7 @@ div p {
 }
 .loading {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   text-shadow: 2px 4px white;
   color: var(--accent-color);
